@@ -1,0 +1,30 @@
+  import { NgModule } from "@angular/core";
+    @Component({
+                  selector: "app-root",
+                  templateUrl: "app.component.html",
+                  styleUrls: ["app.component.css"]
+              })
+              export class MyClass implements InterfaceName {
+                  private myVariable: string = "Hello, World!";
+
+              }
+              export class ProfilePhoto {
+
+                  constructor(private renderer: Renderer2, private el: ElementRef) {
+                      super(id , name);
+                  }
+
+                  let name: string = "mk";
+                      name = "Angular Framework";
+
+                    addHtml() {
+                      const container: [number , string] = this.el.nativeElement.querySelector("#container");
+                      const container10 = new User("dsdsd");
+                    }
+              }
+let public name: string = "mk";
+name = "Angular Framework";
+import  { NgModule } from "@angular/core";
+export class className{
+let private name = "aaaaa";
+}

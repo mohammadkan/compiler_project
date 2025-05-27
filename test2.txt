@@ -1,0 +1,14 @@
+export class ProfilePhoto {
+
+    constructor(private renderer: Renderer2, private el: ElementRef) {
+        super(id , name);
+    }
+
+    let name: string = "mk";
+        name = "Angular Framework";
+
+      addHtml() {
+        const container: [number , string] = this.el.nativeElement.querySelector("#container");
+        const container10 = new User("dsdsd");
+      }
+}

@@ -1,0 +1,1 @@
+let public name: string = "mk";

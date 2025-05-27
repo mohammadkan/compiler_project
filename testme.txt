@@ -1,0 +1,20 @@
+@Component({
+  selector: "app-root",
+  template: `
+    <div class="container">
+        <div class="row">
+          <div *ngFor="let product of products" class="product"  (click)="selectProduct(product)">
+            <img [src]="product.image"/>
+            <h2>{{ product.name }}</h2>
+            <p>Price: {{ product.price }}$</p>
+          </div>
+        </div>
+
+      <div *ngIf="selectedProduct" class="product-details">
+        <h2>Product Details: {{ selectedProduct.name }}</h2>
+        <p>Price: {{ selectedProduct.price }}$</p>
+      </div>
+    </div>
+  `,
+  styles:["app.component.css"]
+})
