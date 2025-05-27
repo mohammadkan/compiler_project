@@ -17,7 +17,7 @@ public class Main {
 //        String source = "test3.txt";
 //        String source = "test4.txt";
         String source = "testme.txt";
-
+        int x = 10;
         CharStream charStream = fromFileName(source);
         int h=10;
         AngLexer lexer = new AngLexer(charStream);
