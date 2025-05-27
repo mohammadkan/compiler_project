@@ -19,7 +19,7 @@ public class Main {
         String source = "testme.txt";
 
         CharStream charStream = fromFileName(source);
-
+        int h=10;
         AngLexer lexer = new AngLexer(charStream);
         CommonTokenStream token = new CommonTokenStream((TokenSource) lexer);
         AngParser parser = new AngParser(token);
